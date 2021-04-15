@@ -60,6 +60,10 @@ label {
   display: none;
 }
 
+a:hover {
+  color: #ba4853;
+}
+
 .main-text {
   height: 85%;
   display: -webkit-box;
