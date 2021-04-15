@@ -1,0 +1,162 @@
+// general page styling
+
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  min-height: 100vh;
+  background-image: url("/images/pink-background.jpg");
+  background-position: left center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Mulish', sans-serif;
+}
+
+// navigation bar styling
+
+.nav {
+  background-color: rgba(246,159,113,0.9);
+  text-align: right;
+  height: 70px;
+  line-height: 70px;
+  box-shadow: 0 5px 2px -2px rgba(0,0,0,.2);
+}
+
+.menu {
+  margin: 0 30px 0 0;
+  
+  a {
+  clear: right;
+  text-decoration: none;
+  color: white;
+  margin: 0 40px;
+  line-height: 70px;
+  text-transform: uppercase;
+  }
+}
+
+label {
+  margin: 0 40px 0 0;
+  font-size: 26px;
+  line-height: 70px;
+  display: none;
+  width: 26px;
+  float: right;
+  color: white;
+}
+
+#toggle {
+  display: none;
+}
+
+
+// main content area styling
+
+.main-text {
+  height: 85%; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  h1 {
+    color: white;
+    text-shadow: 2px 2px #ba4853;
+    margin: 10px;
+  }
+  h2 {
+    color: white;
+    text-shadow: 2px 2px #ba4853;
+    margin: 10px;
+  }
+}
+
+.page-link {
+  text-decoration: none;
+  margin-top: 50px;
+  background-color: coral;
+  padding: 10px 15px;
+  box-shadow: 0 5px 2px -2px rgba(0,0,0,.2);
+  border-radius: 7px;
+  color: white;
+}
+
+// footer styling
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 15px;
+  background-color: rgba(233,77,81,0.5);
+  display: flex; 
+  align-items: center; 
+  justify-content: center; 
+
+  p {
+    color: #f8d1d1;
+  }
+}
+
+
+// STYLING FOR MOBILE
+
+@media only screen and (max-width: 500px) {
+
+  // mobile drop down navigation
+
+  label {
+    display: block;
+    cursor: pointer;
+  }
+
+  .menu {
+    text-align: center;
+    width: 100%;
+    display: none;
+
+    a {
+        background-color: rgba(244,137,158,0.9);
+        display: block;
+        border-bottom: 1px solid #EAEAEB;
+        margin: 0;
+      }
+  }
+
+  #toggle:checked + .menu {
+    display: block;
+    position: absolute;
+    top: 70px;
+  }
+}
+
+
+
+
+// STYLING FOR TABLETS
+
+@media only screen and (min-width: 600px) {
+
+}
+
+
+
+
+
+// STYLING FOR DESKTOP
+
+@media only screen and (min-width: 768px) {
+
+  .main-text {
+    h1 {
+      font-size: 5rem;
+    }
+    h2 {
+      font-size: 3rem;
+    }
+  }
+
+}
