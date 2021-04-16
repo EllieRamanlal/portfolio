@@ -1,4 +1,4 @@
-//BACKGROUND IMAGE
+// BACKGROUND IMAGE
 
   body {
     background-image: url("/images/pink-background.jpg");
@@ -11,21 +11,32 @@
 
 // FOOTER 
 
-  footer {
-
+ .page-container {
+    position: relative;
+    min-height: 100vh;
+  }
+  
+  .content-wrap {
+    // footer height
+    padding-bottom: 2.5rem;    
+  }
+  
+  .footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     position: absolute;
     bottom: 0;
     width: 100%;
-  
-    display: flex; 
-    align-items: center; 
-    justify-content: center; 
-    position: relative;
-    width: 100%;
-    padding: 15px;
+    height: 2.5rem;
     background-color: rgba(233,77,81,0.5);
+    
     p {
       color: #f8d1d1;
     }
+
+    
   }
+
+  
   

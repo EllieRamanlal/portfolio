@@ -9,37 +9,47 @@
     <title>Contact</title>
     
 </head>
+
 <body>
-    <header>
-        <div class="navigation">
-            <a href="index.html">Home</a>
-            <a href="about.html">About</a>
-            <a href="projects.html">Projects</a>
-            <a href="blog.html">Blog</a>
-            <a class="active" href="contact.html">Contact</a>
+
+    <div class="page-container">
+
+        <div class="content-wrap">
+
+            <header>
+                <div class="nav">
+                    <a href="index.html">Home</a>
+                    <a href="about.html">About</a>
+                    <a href="projects.html">Projects</a>
+                    <a href="blog.html">Blog</a>
+                    <a class="active" href="contact.html">Contact</a>
+                </div>
+            </header>
+
+            <h1>Contact</h1>
+
+            <p>Get in touch</p>
+            
+            <form>
+                <label for="fullname">Full name:</label>
+                <input type="text" id="fullname" name="fullname" placeholder="Full name">
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" placeholder="example@email.com">
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" placeholder="Write message here.." style="height:170px"></textarea>
+
+                <input type="submit" value="Submit">
+            </form>
+        
         </div>
-    </header>
 
-    <h1>Contact</h1>
+        <footer class="footer">
+            <p>© 2021 Ellie Ramanlal</p>
+        </footer>
 
-    <p>Get in touch</p>
-    
-    <form>
-        <label for="fullname">Full name:</label>
-        <input type="text" id="fullname" name="fullname" placeholder="Full name">
-
-        <label for="email">Email:</label>
-        <input type="email" id="email" placeholder="example@email.com">
-
-        <label for="message">Message:</label>
-        <textarea id="message" name="message" placeholder="Write message here.." style="height:170px"></textarea>
-
-        <input type="submit" value="Submit">
-    </form>
-
-    <footer>
-        <p>© 2021 Ellie Ramanlal</p>
-    </footer>
+    </div>
 
 </body>
 </html>
