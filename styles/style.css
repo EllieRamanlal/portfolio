@@ -69,28 +69,24 @@ body {
   text-transform: uppercase;
 }
 
-label {
-  margin: 0 40px 0 0;
-  font-size: 26px;
-  line-height: 70px;
-  display: none;
-  width: 26px;
-  float: right;
-  color: white;
+.menu a:hover {
+  color: #ba4853;
 }
 
 #toggle {
   display: none;
 }
 
-a:hover {
-  color: #ba4853;
-}
-
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 767px) {
   label {
     display: block;
     cursor: pointer;
+    margin: 0 40px 0 0;
+    font-size: 26px;
+    line-height: 70px;
+    width: 26px;
+    float: right;
+    color: white;
   }
   .menu {
     text-align: center;
@@ -113,6 +109,12 @@ a:hover {
     display: block;
     position: absolute;
     top: 70px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  label {
+    display: none;
   }
 }
 
