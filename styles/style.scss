@@ -1,15 +1,5 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  // border: 1px solid yellow;
-}
-
-body {
-  font-family: 'Mulish', sans-serif;
-}
-
+@import "partials/_base";
+@import "partials/_nav";
 @import "partials/_home";
 @import "partials/_about";
-@import "partials/_nav";
-@import "partials/_base";
+
