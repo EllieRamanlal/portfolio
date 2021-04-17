@@ -6,15 +6,22 @@
 }
 
 body {
-  font-family: 'Mulish', sans-serif;
-}
-
-body {
   background-image: url("/images/pink-background.jpg");
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: left center;
+}
+
+body {
+  font-family: 'Mulish', sans-serif;
+}
+
+.main-title {
+  color: white;
+  text-shadow: 2px 2px #ba4853;
+  margin: 30px 0px;
+  text-align: center;
 }
 
 .page-container {
@@ -166,23 +173,80 @@ h2 {
   color: white;
 }
 
-.main-title {
-  color: white;
-  text-shadow: 2px 2px #ba4853;
-  margin: 30px 0px;
-  text-align: center;
+.profile {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
 }
 
-#profile img {
+.profile img {
   width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   margin: 0 25%;
 }
 
-#profile p {
-  margin: 20px;
+.profile p {
+  background-color: #f8895c;
   color: white;
-  font-size: 14px;
-  line-height: 1.75;
-  text-align: justify;
+  margin: 50px 40px;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.skills {
+  background-color: #f8895c;
+  margin: 0px 40px 40px 40px;
+  padding: 20px;
+  border-radius: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.skills h3 {
+  text-align: center;
+  color: white;
+}
+
+.skills .skill-icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 15px;
+}
+
+.skills .skill-icons img {
+  width: 50px;
+  margin: 0px 5px;
 }
 /*# sourceMappingURL=style.css.map */
