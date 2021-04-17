@@ -47,7 +47,7 @@ body {
   bottom: 0;
   width: 100%;
   height: 2.5rem;
-  background-color: rgba(233, 77, 81, 0.5);
+  background-color: rgba(233, 77, 81, 0.8);
 }
 
 .footer p {
@@ -305,5 +305,55 @@ h2 {
 
 .projects a {
   text-decoration: none;
+}
+
+.blog-list {
+  background-color: #f8895c;
+  margin: 0px 40px 40px 40px;
+  padding: 25px;
+  border-radius: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  text-align: left;
+}
+
+.blog-list img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.blog-list p {
+  color: white;
+  margin: 10px 0;
+}
+
+.blog-list h2 {
+  margin: 20px 0px;
+}
+
+.blog-list a {
+  text-decoration: none;
+}
+
+.read-more {
+  text-decoration: none;
+  margin-top: 20px;
+  background-color: #f9a3a2;
+  padding: 10px 15px;
+  -webkit-box-shadow: 0 5px 2px -2px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 5px 2px -2px rgba(0, 0, 0, 0.2);
+  border-radius: 7px;
+  color: white;
 }
 /*# sourceMappingURL=style.css.map */
