@@ -50,3 +50,27 @@
         font-size: 1.2em;
     }
 }
+
+
+
+
+
+// STYLING FOR TABLETS
+
+@media only screen and (min-width: 600px) {
+
+    // limits width of contact form on larger devices
+
+    .message-form {
+        width: 515px;
+        margin: auto;
+    }
+    
+}
+
+
+// STYLING FOR DESKTOP
+
+@media only screen and (min-width: 768px) {
+
+}

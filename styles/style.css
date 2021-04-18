@@ -438,4 +438,11 @@ p {
   text-align: center;
   font-size: 1.2em;
 }
+
+@media only screen and (min-width: 600px) {
+  .message-form {
+    width: 515px;
+    margin: auto;
+  }
+}
 /*# sourceMappingURL=style.css.map */
