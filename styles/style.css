@@ -85,7 +85,7 @@ body {
 }
 
 @media only screen and (max-width: 767px) {
-  label {
+  .nav label {
     display: block;
     cursor: pointer;
     margin: 0 40px 0 0;
@@ -120,7 +120,7 @@ body {
 }
 
 @media only screen and (min-width: 768px) {
-  label {
+  .nav label {
     display: none;
   }
 }
@@ -355,5 +355,63 @@ h2 {
           box-shadow: 0 5px 2px -2px rgba(0, 0, 0, 0.2);
   border-radius: 7px;
   color: white;
+}
+
+.message-form {
+  background-color: #f8895c;
+  margin: 0px 40px 40px 40px;
+  padding: 25px;
+  border-radius: 20px;
+}
+
+.message-form form {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 10px;
+}
+
+.message-form form label {
+  text-align: left;
+  font-size: 1rem;
+  margin: 15px 0 10px 0;
+  color: white;
+}
+
+.message-form form input[type=text],
+.message-form form input[type=email],
+.message-form form textarea {
+  border-radius: 7px;
+  border: none;
+  padding: 12px 10px;
+  font-family: 'Mulish', sans-serif;
+  font-size: 0.8em;
+}
+
+.message-form form input[type=submit] {
+  background-color: #f9a3a2;
+  -webkit-box-shadow: 0 5px 2px -2px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 5px 2px -2px rgba(0, 0, 0, 0.2);
+  border-radius: 7px;
+  color: white;
+  padding: 14px 20px;
+  margin: 25px 0 8px 0;
+  border: none;
+  cursor: pointer;
+}
+
+.message-form form input[type=submit]:hover {
+  background-color: #e8605e;
+}
+
+.message-form p {
+  color: white;
+  text-align: center;
+  font-size: 1.2em;
 }
 /*# sourceMappingURL=style.css.map */
