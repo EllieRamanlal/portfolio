@@ -300,7 +300,7 @@ p {
 
 .projects {
   background-color: #f8895c;
-  margin: 0px 40px 40px 40px;
+  margin: 40px;
   padding: 25px;
   border-radius: 20px;
   display: -webkit-box;
@@ -323,12 +323,65 @@ p {
   border-radius: 10px;
 }
 
+.projects h2 {
+  color: white;
+  text-shadow: 2px 2px #ba4853;
+  text-align: center;
+  margin: 20px;
+}
+
 .projects p {
   color: white;
 }
 
 .projects a {
   text-decoration: none;
+}
+
+@media only screen and (min-width: 600px) {
+  .projects img {
+    max-width: 450px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .projects {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    width: 80vw;
+    max-width: 1000px;
+    margin: 40px auto;
+  }
+  .projects img {
+    width: 30vw;
+    padding: 0;
+    margin: 0;
+  }
+  .projects .project-text {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    padding: 0;
+    margin-left: 20px;
+  }
+  .projects .project-text h2 {
+    margin: 0 0 15px 0;
+  }
 }
 
 .blog-list {
