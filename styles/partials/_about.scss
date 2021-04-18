@@ -14,7 +14,7 @@
     .bio {
         background-color:rgb(248,137,92);
         color: white;
-        margin: 40px 40px;
+        margin: 40px 40px 0 40px;
         padding: 0px 20px;
         border-radius: 20px;
     }
@@ -27,7 +27,7 @@
 
 .skills {
     background-color:rgb(248,137,92);
-    margin: 0px 40px 40px 40px;
+    margin: 40px;
     padding: 20px;
     border-radius: 20px;
     display: flex;
@@ -39,31 +39,31 @@
         color: white;
     }
 
-.skill-icons {
+    .skill-icons {
 
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin-top: 15px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 15px;
 
-    img {
-        width: 50px;
-        margin: 0px 5px;
-    } 
-}
+        img {
+            width: 50px;
+            margin: 0px 5px;
+        } 
+    }
 }
 
 .resume {
     background-color:rgb(248,137,92);
-    margin: 0px 40px 40px 40px;
+    margin: 40px;
     padding: 20px;
     border-radius: 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 15px;
+    // margin-top: 15px;
 
     img {
         width: 45px;
@@ -87,6 +87,16 @@
             width: 30%;
         }
     }
+
+    // .experience {
+    //     display: flex;
+    //     flex-direction: row;
+    //     justify-content: center;
+    //     width: 90vw;
+    //     margin: 0;
+
+
+    // }
     
 }
 
@@ -94,5 +104,11 @@
 // STYLING FOR DESKTOP
 
 @media only screen and (min-width: 768px) {
+
+    .profile {
+        img {
+            width: 20%;
+        }
+    }
 
 }

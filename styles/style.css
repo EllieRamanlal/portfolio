@@ -209,7 +209,7 @@ p {
 .profile .bio {
   background-color: #f8895c;
   color: white;
-  margin: 40px 40px;
+  margin: 40px 40px 0 40px;
   padding: 0px 20px;
   border-radius: 20px;
 }
@@ -220,7 +220,7 @@ p {
 
 .skills {
   background-color: #f8895c;
-  margin: 0px 40px 40px 40px;
+  margin: 40px;
   padding: 20px;
   border-radius: 20px;
   display: -webkit-box;
@@ -263,7 +263,7 @@ p {
 
 .resume {
   background-color: #f8895c;
-  margin: 0px 40px 40px 40px;
+  margin: 40px;
   padding: 20px;
   border-radius: 20px;
   display: -webkit-box;
@@ -279,7 +279,6 @@ p {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-top: 15px;
 }
 
 .resume img {
@@ -295,6 +294,12 @@ p {
 @media only screen and (min-width: 600px) {
   .profile img {
     width: 30%;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .profile img {
+    width: 20%;
   }
 }
 
