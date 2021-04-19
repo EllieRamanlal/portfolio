@@ -257,8 +257,9 @@ p {
 }
 
 .skills .skill-icons img {
-  width: 50px;
+  width: 20%;
   margin: 0px 5px;
+  max-width: 80px;
 }
 
 .resume {
@@ -300,6 +301,25 @@ p {
 @media only screen and (min-width: 768px) {
   .profile img {
     width: 20%;
+  }
+  .experience {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    margin: 40px;
+  }
+  .experience .skills,
+  .experience .resume {
+    width: 40%;
+    margin: 0 10px;
   }
 }
 

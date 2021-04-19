@@ -1,5 +1,3 @@
-
-
 .profile {
     display: flex;
     flex-direction: column;
@@ -48,8 +46,9 @@
         margin-top: 15px;
 
         img {
-            width: 50px;
+            width: 20%;
             margin: 0px 5px;
+            max-width: 80px;
         } 
     }
 }
@@ -87,17 +86,6 @@
             width: 30%;
         }
     }
-
-    // .experience {
-    //     display: flex;
-    //     flex-direction: row;
-    //     justify-content: center;
-    //     width: 90vw;
-    //     margin: 0;
-
-
-    // }
-    
 }
 
 
@@ -108,6 +96,20 @@
     .profile {
         img {
             width: 20%;
+        }
+    }
+
+    .experience {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin: 40px;
+
+        .skills,
+        .resume {
+            width: 40%;
+            margin: 0 10px;
         }
     }
 
