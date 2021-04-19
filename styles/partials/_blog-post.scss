@@ -1,0 +1,46 @@
+.blog-content {
+    background-color:rgb(248,137,92);
+    width: 80vw;
+    margin: 40px auto;
+    padding: 25px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: flex-start;
+    text-align: left;
+
+    img {
+        width: 100%;
+        border-radius: 10px;
+    }
+
+    p {
+        color: white;
+        margin: 10px 0;
+    }
+
+    h2 {
+        margin: 20px 0px;
+        color: white;
+        text-shadow: 2px 2px #ba4853;
+    }
+
+    a {
+        text-decoration: none;
+        align-self: center;
+    }
+
+    .date-posted {
+        font-weight: bold;
+    }
+}
+
+// STYLING FOR DESKTOP
+
+@media only screen and (min-width: 768px) {
+
+    .blog-content {
+        max-width: 900px;
+    }
+}
