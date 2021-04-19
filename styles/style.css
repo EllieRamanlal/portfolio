@@ -548,10 +548,42 @@ p {
   font-size: 1.2em;
 }
 
+.socials {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #f8895c;
+  margin: 0px 40px 40px 40px;
+  padding: 25px;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.socials p {
+  color: white;
+  font-size: 1.2em;
+}
+
+.socials img {
+  width: 40px;
+  margin: 30px 10px 0 20px;
+}
+
 @media only screen and (min-width: 600px) {
-  .message-form {
+  .message-form,
+  .socials {
     width: 515px;
-    margin: auto;
+    margin: 40px auto;
   }
 }
 /*# sourceMappingURL=style.css.map */

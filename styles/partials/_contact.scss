@@ -51,6 +51,30 @@
     }
 }
 
+.socials {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(248,137,92);
+    margin: 0px 40px 40px 40px;
+    padding: 25px;
+    border-radius: 20px;
+    text-align: center;
+
+    p {
+        color: white;
+        font-size: 1.2em;
+    }
+
+    img {
+        width: 40px;
+        margin: 30px 10px 0 20px;
+    }
+
+
+}
+
 
 
 
@@ -61,9 +85,10 @@
 
     // limits width of contact form on larger devices
 
-    .message-form {
+    .message-form,
+    .socials {
         width: 515px;
-        margin: auto;
+        margin: 40px auto;
     }
     
 }
