@@ -72,7 +72,7 @@ p {
 
 .nav {
     background-color: rgba(246,159,113,0.9);
-    text-align: right;
+    text-align: center;
     height: 70px;
     line-height: 70px;
     box-shadow: 0 5px 2px -2px rgba(0,0,0,.2);
@@ -136,6 +136,7 @@ p {
         width: 100%;
         display: none;
         box-shadow: 0 5px 2px -2px rgba(0,0,0,.2);
+        border-top: 1px solid #EAEAEB;
       
         a {
             background-color: rgba(246,159,113,0.9);
