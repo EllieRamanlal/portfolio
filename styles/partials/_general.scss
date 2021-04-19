@@ -106,10 +106,12 @@ p {
   
 
 
-// DROP DOWNN NAV FOR MOBILE AND TABLET
+// MEDIA QUERIES
 
 
 @media only screen and (max-width: 767px) {
+
+// DROP DOWNN NAV FOR MOBILE AND TABLET
 
     // displays hamburger menu icon
 
@@ -171,6 +173,18 @@ p {
             display: none;
         }
     }
+
+    // active page is highlighted
+
+    .menu {
+         .active {
+            border-bottom: 2px solid #ba4853;
+            padding-bottom: 7px;
+            color: #ba4853;
+        }
+    }
+
+   
 
 }
   

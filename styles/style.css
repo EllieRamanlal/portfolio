@@ -127,6 +127,11 @@ p {
   .nav label {
     display: none;
   }
+  .menu .active {
+    border-bottom: 2px solid #ba4853;
+    padding-bottom: 7px;
+    color: #ba4853;
+  }
 }
 
 * {
