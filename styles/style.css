@@ -423,6 +423,8 @@ p {
 
 .blog-list h2 {
   margin: 20px 0px;
+  color: white;
+  text-shadow: 2px 2px #ba4853;
 }
 
 .blog-list a {
@@ -438,6 +440,34 @@ p {
           box-shadow: 0 5px 2px -2px rgba(0, 0, 0, 0.2);
   border-radius: 7px;
   color: white;
+}
+
+@media only screen and (min-width: 600px) {
+  .blog-list {
+    max-width: 580px;
+    margin: 40px auto;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .blog-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .blog-container .blog-list {
+    width: 40%;
+    margin: 30px;
+  }
 }
 
 .message-form {
