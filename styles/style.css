@@ -471,6 +471,10 @@ p {
   color: white;
 }
 
+.read-more:hover {
+  background-color: #e8605e;
+}
+
 @media only screen and (min-width: 600px) {
   .blog-list {
     max-width: 580px;
@@ -537,8 +541,8 @@ p {
   text-shadow: 2px 2px #ba4853;
 }
 
-.blog-content a {
-  text-decoration: none;
+.blog-content .blog-nav {
+  margin-top: 30px;
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
