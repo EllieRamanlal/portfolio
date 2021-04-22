@@ -114,6 +114,7 @@ p {
   }
   .menu a:hover {
     background-color: #f37145;
+    color: white;
   }
   .menu .active {
     color: white;

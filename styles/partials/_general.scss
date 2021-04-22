@@ -115,7 +115,7 @@ p {
 
 @media only screen and (max-width: 767px) {
 
-// DROP DOWNN NAV FOR MOBILE AND TABLET
+// DROP DOWNN NAV FOR MOBILE AND SMALL DEVICES
 
     // displays hamburger menu icon
 
@@ -149,6 +149,7 @@ p {
 
             &:hover {
                 background-color:rgb(243,113,69);
+                color: white;
             }
         }
       
