@@ -67,6 +67,11 @@
     img {
         width: 45px;
         margin-top: 15px;
+        
+        &:hover {
+            animation-name: wiggle;
+            animation-duration: 1s;
+        }
     }
 
     h3 {
