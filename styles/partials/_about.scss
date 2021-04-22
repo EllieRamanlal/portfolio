@@ -1,13 +1,19 @@
+// Profile section
+
 .profile {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 
+    // Profile image
+
     img {
         width: 50%;
         margin: 0 auto;
     }
+
+    // Written bio section
 
     .bio {
         background-color:rgb(248,137,92);
@@ -20,8 +26,9 @@
     p {
         margin: 20px 0;
     }
-
 }
+
+// Skills section
 
 .skills {
     background-color:rgb(248,137,92);
@@ -37,6 +44,8 @@
         color: white;
     }
 
+    // Skill icons section
+
     .skill-icons {
 
         display: flex;
@@ -45,6 +54,8 @@
         justify-content: center;
         margin-top: 15px;
 
+        // Icon images
+
         img {
             width: 20%;
             margin: 0px 5px;
@@ -52,6 +63,8 @@
         } 
     }
 }
+
+// Resume section
 
 .resume {
     background-color:rgb(248,137,92);
@@ -62,7 +75,13 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    // margin-top: 15px;
+
+    h3 {
+        text-align: center;
+        color: white;
+    }    
+
+    // Resume download button
 
     img {
         width: 45px;
@@ -73,16 +92,13 @@
             animation-duration: 1s;
         }
     }
-
-    h3 {
-        text-align: center;
-        color: white;
-    }    
 }
 
 
 
-// STYLING FOR TABLETS
+// MEDIA QUERIES
+
+// For tablets
 
 @media only screen and (min-width: 600px) {
 
@@ -95,9 +111,11 @@
 }
 
 
-// STYLING FOR DESKTOP
+// For desktops
 
 @media only screen and (min-width: 768px) {
+
+    // profile image
 
     .profile {
 
@@ -106,6 +124,7 @@
         }
     }
 
+    // skills and resume section
 
     .experience {
         display: flex;
@@ -121,5 +140,4 @@
             margin: 0 10px;
         }
     }
-
 }

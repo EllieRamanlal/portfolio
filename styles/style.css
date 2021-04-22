@@ -200,13 +200,6 @@ p {
   }
 }
 
-* {
-  margin: 0;
-  padding: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-}
-
 .home-content {
   height: 85vh;
   display: -webkit-box;
@@ -358,6 +351,11 @@ p {
           align-items: center;
 }
 
+.resume h3 {
+  text-align: center;
+  color: white;
+}
+
 .resume img {
   width: 45px;
   margin-top: 15px;
@@ -368,11 +366,6 @@ p {
           animation-name: wiggle;
   -webkit-animation-duration: 1s;
           animation-duration: 1s;
-}
-
-.resume h3 {
-  text-align: center;
-  color: white;
 }
 
 @media only screen and (min-width: 600px) {
@@ -520,16 +513,16 @@ p {
   border-radius: 10px;
 }
 
-.blog-list p {
-  color: white;
-  margin: 10px 0;
-}
-
 .blog-list h2 {
   margin: 20px 0px;
   color: white;
   text-shadow: 2px 2px #ba4853;
   text-align: left;
+}
+
+.blog-list p {
+  color: white;
+  margin: 10px 0;
 }
 
 .blog-list a {
@@ -606,15 +599,19 @@ p {
   border-radius: 10px;
 }
 
+.blog-content h2 {
+  margin: 20px 0px;
+  color: white;
+  text-shadow: 2px 2px #ba4853;
+}
+
 .blog-content p {
   color: white;
   margin: 10px 0;
 }
 
-.blog-content h2 {
-  margin: 20px 0px;
-  color: white;
-  text-shadow: 2px 2px #ba4853;
+.blog-content .date-posted {
+  font-weight: bold;
 }
 
 .blog-content .blog-nav {
@@ -624,14 +621,48 @@ p {
       align-self: center;
 }
 
-.blog-content .date-posted {
-  font-weight: bold;
-}
-
 @media only screen and (min-width: 768px) {
   .blog-content {
     max-width: 900px;
   }
+}
+
+.socials {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #f8895c;
+  margin: 0px 40px 40px 40px;
+  padding: 25px;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.socials p {
+  color: white;
+  font-size: 1.2em;
+}
+
+.socials img {
+  width: 40px;
+  margin: 30px 10px 0 20px;
+}
+
+.socials img:hover {
+  -webkit-animation-name: wiggle;
+          animation-name: wiggle;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
 }
 
 .message-form {
@@ -690,44 +721,6 @@ p {
   color: white;
   text-align: center;
   font-size: 1.2em;
-}
-
-.socials {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  background-color: #f8895c;
-  margin: 0px 40px 40px 40px;
-  padding: 25px;
-  border-radius: 20px;
-  text-align: center;
-}
-
-.socials p {
-  color: white;
-  font-size: 1.2em;
-}
-
-.socials img {
-  width: 40px;
-  margin: 30px 10px 0 20px;
-}
-
-.socials img:hover {
-  -webkit-animation-name: wiggle;
-          animation-name: wiggle;
-  -webkit-animation-duration: 1s;
-          animation-duration: 1s;
 }
 
 @media only screen and (min-width: 600px) {

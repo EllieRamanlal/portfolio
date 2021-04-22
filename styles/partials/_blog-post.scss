@@ -1,3 +1,5 @@
+// Blog post
+
 .blog-content {
     background-color:rgb(248,137,92);
     width: 80vw;
@@ -10,35 +12,43 @@
     align-items: flex-start;
     text-align: left;
 
+    // Blog image
+
     img {
         width: 100%;
         border-radius: 10px;
     }
 
-    p {
-        color: white;
-        margin: 10px 0;
-    }
+    // Blog title and main text
 
     h2 {
         margin: 20px 0px;
         color: white;
         text-shadow: 2px 2px #ba4853;
     }
-
-    .blog-nav {
-        margin-top: 30px;
-        align-self: center;
+    
+    p {
+        color: white;
+        margin: 10px 0;
     }
 
     .date-posted {
         font-weight: bold;
     }
-    
 
+    // Navigation buttons for next/prev blog and back to main blog page
+
+    .blog-nav {
+        margin-top: 30px;
+        align-self: center;
+    }
 }
 
-// STYLING FOR DESKTOP
+
+
+// MEDIA QUERIES
+
+// For desktops
 
 @media only screen and (min-width: 768px) {
 

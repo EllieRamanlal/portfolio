@@ -1,6 +1,7 @@
+// Main blog list
+
 .blog-list {
     background-color:rgb(248,137,92);
-    // width: 80vw;
     margin: 0px 40px 40px 40px;
     padding: 25px;
     border-radius: 20px;
@@ -10,15 +11,14 @@
     align-items: flex-start;
     text-align: left;
 
+    // Blog image
+
     img {
         width: 100%;
         border-radius: 10px;
     }
 
-    p {
-        color: white;
-        margin: 10px 0;
-    }
+    // Blog title and text
 
     h2 {
         margin: 20px 0px;
@@ -27,11 +27,18 @@
         text-align: left;
     }
 
+    p {
+        color: white;
+        margin: 10px 0;
+    }
+
     a {
         text-decoration: none;
     }
 
 }
+
+// 'Read more' button
 
 .read-more {
     text-decoration: none;
@@ -48,7 +55,11 @@
 
 }
 
-// STYLING FOR TABLETS
+
+// MEDIA QUERIES
+
+
+// For tablets
 
 @media only screen and (min-width: 600px) {
 
@@ -60,9 +71,11 @@
 }
 
 
-// STYLING FOR DESKTOP
+// For desktops
 
 @media only screen and (min-width: 768px) {
+
+    // creates two columns for blog list
 
     .blog-container {
         display: flex;

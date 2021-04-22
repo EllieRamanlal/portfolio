@@ -1,11 +1,4 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-
-// HOMEPAGE CONTENT
+// Main content on homepage
 
 .home-content {
     height: 85vh;
@@ -28,6 +21,7 @@
     }   
 }
 
+// 'Learn more' button
 
 .page-link {
     text-decoration: none;
@@ -45,8 +39,9 @@
 
 
 
+// MEDIA QUERIES
 
-// STYLING FOR TABLETS & DESKTOP
+// For tablets and desktops
 
 @media only screen and (min-width: 600px) {
 
@@ -58,6 +53,5 @@
             font-size: 3vw;
         }
     }
-
 }
 
