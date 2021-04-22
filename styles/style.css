@@ -88,6 +88,55 @@ p {
   display: none;
 }
 
+@media only screen and (max-width: 767px) {
+  .nav label {
+    display: block;
+    cursor: pointer;
+    margin: 0 40px 0 0;
+    font-size: 26px;
+    line-height: 70px;
+    width: 26px;
+    float: right;
+    color: white;
+  }
+  .menu {
+    text-align: center;
+    width: 100%;
+    display: none;
+    -webkit-box-shadow: 0 5px 2px -2px rgba(0, 0, 0, 0.2);
+            box-shadow: 0 5px 2px -2px rgba(0, 0, 0, 0.2);
+    border-top: 1px solid #EAEAEB;
+  }
+  .menu a {
+    background-color: rgba(246, 159, 113, 0.9);
+    display: block;
+    margin: 0;
+  }
+  .menu a:hover {
+    background-color: #f37145;
+  }
+  .menu .active {
+    color: white;
+    background-color: #f37145;
+  }
+  #toggle:checked + .menu {
+    display: block;
+    position: absolute;
+    top: 70px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .nav label {
+    display: none;
+  }
+  .menu .active {
+    border-bottom: 2px solid #ba4853;
+    padding-bottom: 7px;
+    color: #ba4853;
+  }
+}
+
 @-webkit-keyframes wiggle {
   0% {
     -webkit-transform: translateX(0%);
@@ -147,53 +196,6 @@ p {
   100% {
     -webkit-transform: translateY(0%);
             transform: translateY(0%);
-  }
-}
-
-@media only screen and (max-width: 767px) {
-  .nav label {
-    display: block;
-    cursor: pointer;
-    margin: 0 40px 0 0;
-    font-size: 26px;
-    line-height: 70px;
-    width: 26px;
-    float: right;
-    color: white;
-  }
-  .menu {
-    text-align: center;
-    width: 100%;
-    display: none;
-    -webkit-box-shadow: 0 5px 2px -2px rgba(0, 0, 0, 0.2);
-            box-shadow: 0 5px 2px -2px rgba(0, 0, 0, 0.2);
-    border-top: 1px solid #EAEAEB;
-  }
-  .menu a {
-    background-color: rgba(246, 159, 113, 0.9);
-    display: block;
-    border-bottom: 1px solid #EAEAEB;
-    margin: 0;
-  }
-  .menu .active {
-    color: white;
-    background-color: #f37145;
-  }
-  #toggle:checked + .menu {
-    display: block;
-    position: absolute;
-    top: 70px;
-  }
-}
-
-@media only screen and (min-width: 768px) {
-  .nav label {
-    display: none;
-  }
-  .menu .active {
-    border-bottom: 2px solid #ba4853;
-    padding-bottom: 7px;
-    color: #ba4853;
   }
 }
 

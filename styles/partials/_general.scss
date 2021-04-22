@@ -104,18 +104,8 @@ p {
     display: none;
 }
 
-// KEYFRAMES
 
-@keyframes wiggle {
 
-    0% { transform: translateX(0%); } 
-    15% { transform: translateY(-8%) rotate(-4deg); } 
-    30% { transform: translateY(8%) rotate(2deg); } 
-    45% { transform: translateY(-3%) rotate(-2deg); } 
-    60% { transform: translateY(3%) rotate(1deg); }
-    75% { transform: translateY(-2%) rotate(-1deg); }
-    100% { transform: translateY(0%); } 
-}
   
 
 
@@ -155,8 +145,11 @@ p {
         a {
             background-color: rgba(246,159,113,0.9);
             display: block;
-            border-bottom: 1px solid #EAEAEB;
             margin: 0;
+
+            &:hover {
+                background-color:rgb(243,113,69);
+            }
         }
       
         .active {
@@ -199,7 +192,19 @@ p {
         }
     }
 
-   
 
 }
-  
+
+
+// KEYFRAMES
+
+@keyframes wiggle {
+
+    0% { transform: translateX(0%); } 
+    15% { transform: translateY(-8%) rotate(-4deg); } 
+    30% { transform: translateY(8%) rotate(2deg); } 
+    45% { transform: translateY(-3%) rotate(-2deg); } 
+    60% { transform: translateY(3%) rotate(1deg); }
+    75% { transform: translateY(-2%) rotate(-1deg); }
+    100% { transform: translateY(0%); } 
+}
