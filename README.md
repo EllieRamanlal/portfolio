@@ -45,11 +45,14 @@ The contact page will feature links to my LinkedIn and GitHub accounts. To make 
 The contact page also features a form which allows to user to get in touch with me by submitting a message (this form has been implemented using Formspree). 
 
 ___
-###Sitemap
+### Sitemap
+
 ![sitemap](docs/site-map.png)
 ___
-###Screenshots
-####Mobile View
+### Screenshots
+
+#### Mobile View
+
 ![home-mobile](docs/home-mobile.png)
 ![about-mobile](docs/about-mobile.png)
 ![projects-mobile](docs/projects-mobile.png)
@@ -61,7 +64,8 @@ ___
 ![blogpost5-mobile](docs/blogpost5-mobile.png)
 ![contact-mobile](docs/contact-mobile.png)
 
-####Tablet View
+#### Tablet View
+
 ![home-tablet](docs/home-tablet.png)
 ![about-tablet](docs/about-tablet.png)
 ![projects-tablet](docs/projects-tablet.png)
@@ -73,7 +77,8 @@ ___
 ![blogpost5-tablet](docs/blogpost5-tablet.png)
 ![contact-tablet](docs/contact-tablet.png)
 
-####Desktop View
+#### Desktop View
+
 ![home-desktop](docs/home-desktop.png)
 ![about-desktop](docs/about-desktop.png)
 ![projects-desktop](docs/projects-desktop.png)
@@ -85,7 +90,8 @@ ___
 ![blogpost5-desktop](docs/blogpost5-desktop.png)
 ![contact-desktop](docs/contact-desktop.png)
 
-####Trello Board
+### Trello Board
+
 <https://trello.com/b/OoqjUJV6/portfolio>
 
 13/04/21
@@ -112,13 +118,11 @@ ___
 21/04/21
 ![trello-screenshot8](docs/21-04-21.png)
 
-
-
 ___
-###Target Audience
+### Target Audience
 
 The target audience of this website audience is currently my peers and educators, as this is a course project which will be assessed. However, as I continue to develop this portfolio, the target audience will eventually be potential employers. 
 ___
-###Tech stack
+### Tech stack
 
 This site was created with the use of HTML and SCSS, and was deployed via Netlify. 
